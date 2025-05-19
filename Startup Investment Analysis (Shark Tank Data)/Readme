@@ -1,0 +1,59 @@
+# Shark Tank US Data Analysis with Power BI
+
+This repository presents a data visualization project that explores investment patterns, gender dynamics, and industry trends from the US television show Shark Tank. Built using **Power BI**, the project analyzes deals made across multiple seasons and sheds light on who invests, when, and in what sectors.
+
+## Project Objective
+
+The goal of this project is to perform an in-depth analysis of **deal-making behavior** in Shark Tank US. It focuses on:
+
+- **Investor activity and investment amounts**
+- **Industry-wise deal distributions**
+- **Gender and team composition of entrepreneurs**
+- **Seasonal trends in deal volume and funding**
+
+## Files Included
+
+- **sharktank.pbix** – Power BI dashboard file (editable project)
+- **sharktank.pdf** – Exported version of dashboard visuals for quick reference
+
+## Key Insights
+
+- **Food and Beverage**, **Lifestyle/Home**, and **Fashion/Beauty** are the top-funded industries.
+- **Season 11** recorded the highest number of funded deals (71).
+- **Mark Cuban**, **Lori Greiner**, and **Barbara Corcoran** consistently led in total investment amount.
+- Male-led and mixed-gender teams account for the majority of funded deals.
+- Season-wise funding and investor activity show meaningful trends over time.
+
+## Datasets Used
+
+The underlying data was curated from publicly available records and compiled datasets from Kaggle and other sources based on Shark Tank US show appearances. It includes:
+
+- **Pitcher demographics (gender, team composition)**
+- **Deal outcomes and funding amounts**
+- **Industry classification**
+- **Investor identities**
+- **Season and year of appearance**
+
+> Note: Due to licensing limitations, raw datasets are not included in this repository. Only visualized summaries are provided.
+
+## Tools & Technologies
+
+- **Power BI Desktop**
+- Data modeling with Power Query
+- Visualizations: bar charts, decomposition tree, line graph, donut chart, filters
+
+## How to Use
+
+1. Download the `.pbix` file and open it in **Power BI Desktop**.
+2. Interact with visuals using available filters (e.g., investor, industry, gender, season).
+3. Use slicers to analyze investment focus by specific sharks or industries.
+
+## License
+
+This project is released under the **MIT License**. You may use, modify, and distribute it with proper attribution.
+
+## Acknowledgments
+
+- Microsoft Power BI for dashboarding tools
+- Kaggle contributors for Shark Tank-related datasets
+- Viewers and researchers of Shark Tank for community support
