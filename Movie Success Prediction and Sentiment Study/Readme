@@ -1,0 +1,56 @@
+# Movie Success Prediction and Sentiment Study
+
+This project explores two major aspects of film analytics: predicting the commercial success of movies based on metadata, and analyzing audience sentiment using natural language processing techniques. The project is divided into two tasks:
+
+## Project Tasks
+
+### Task 1: Movie Success Prediction
+
+In this task, we aim to predict a movies success based on its metadata, including budget, runtime, genre, and cast information. Success is typically defined in terms of revenue generation or classification into profitable/unprofitable categories.
+
+**Objective**: Build predictive models using supervised machine learning to classify or regress movie success.
+
+**Tools & Techniques**:
+- Data Preprocessing with pandas and NumPy
+- Feature Engineering
+- Algorithms: Linear Regression, Decision Tree, Random Forest
+- Model Evaluation (R², MAE, MSE)
+
+**Dataset**: IMDb/Kaggle Movie Metadata Dataset  
+**Features include**:
+- Title
+- Budget
+- Revenue
+- Genres
+- Director
+- Cast
+- IMDb Ratings
+- Runtime
+- Language
+- Release Date
+
+**Source**: [IMDb + TMDB Movie Dataset (Kaggle)](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+
+---
+
+### Task 2: Sentiment Analysis of Viewer Reviews
+
+This task analyzes the textual reviews of movies to assess viewer sentiment — whether the review was positive or negative.
+
+**Objective**: Perform sentiment classification using NLP techniques on IMDb reviews.
+
+**Tools & Techniques**:
+- Text Cleaning and Preprocessing (stopwords removal, tokenization)
+- Sentiment Scoring using:
+  - VADER (Valence Aware Dictionary and sEntiment Reasoner)
+  - NLTK
+  - TF-IDF with Naive Bayes / Logistic Regression
+
+**Dataset**: IMDb Movie Reviews Dataset  
+**Features**:
+- Review Text
+- Sentiment Label (positive / negative)
+
+**Source**: [IMDb Movie Reviews Dataset (Kaggle)](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+
+---
